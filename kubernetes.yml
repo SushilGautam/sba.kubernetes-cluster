@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: kubernetes-sba-cluster
-        image: sushilgautam/sushil-flask-app
+        image: sushilgautam/sushil-flask-app:v9
         ports:
-          - containerPort: 88
+          - containerPort: 8080

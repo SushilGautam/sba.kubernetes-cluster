@@ -1,0 +1,11 @@
+[0;32mKubernetes control plane[0m is running at [0;33mhttps://127.0.0.1:55000[0m
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+NAME          READY   STATUS    RESTARTS   AGE
+flask-f6zdw   1/1     Running   0          12m
+flask-h2rsj   1/1     Running   0          12m
+flask-zzv4l   1/1     Running   0          12m
+NAME       STATUS   ROLES                  AGE   VERSION
+minikube   Ready    control-plane,master   21m   v1.20.0
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   12m
